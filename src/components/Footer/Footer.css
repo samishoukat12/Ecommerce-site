@@ -1,5 +1,6 @@
 .footerColor{
     background-color: #ff5757;
+    margin-top: 200px;
    
 }
 .FooterBold{
@@ -8,4 +9,16 @@
     margin-left: 20px !important;
     color:#FFFFFF !important;
     font-family: 'Lobster', cursive !important;
+}
+.links{
+    color: lightgrey !important;
+    margin-left: -10px !important;
+}
+.iconDiv{
+    padding-top: 20px;
+}
+.Footericons{
+   color: lightgrey;
+   font-size: 40px !important;
+   
 }

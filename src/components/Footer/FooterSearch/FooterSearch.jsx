@@ -8,7 +8,7 @@ import Button from "@material-ui/core/Button"
 export default function FooterSearch() {
   const [products, Loading] = FetchItem();
   return (
-    <div style={{ width: 300 }}>
+    <div style={{ width: 300,marginLeft:20 }} >
       <Autocomplete
         freeSolo
         id="free-solo-2-demo"
@@ -17,14 +17,14 @@ export default function FooterSearch() {
         renderInput={(params) => (
           <TextField
             {...params}
-            label={<SearchIcon />}
+            label="Your Email Address"
             margin="normal"
             variant="outlined"
             InputProps={{ ...params.InputProps, type: "search" }}
           />
         )}
       />
-      <Button color="primary" variant="contained" >Search</Button>
+      <Button color="secondary" variant="contained" >Sign Up</Button>
     </div>
   );
 }
