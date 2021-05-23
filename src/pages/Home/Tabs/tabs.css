@@ -1,0 +1,17 @@
+.tab-size{
+  margin-left: 70px !important;
+  margin-right: 55px !important;
+  color: #ff5757;
+  
+}
+.appMargin{
+  margin-top: 30px;
+  width: 100%;
+}
+.Grid{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+}

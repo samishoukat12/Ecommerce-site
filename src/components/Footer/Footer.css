@@ -1,0 +1,11 @@
+.footerColor{
+    background-color: #ff5757;
+   
+}
+.FooterBold{
+    font-weight: 800;
+    font-size: 30px !important;
+    margin-left: 20px !important;
+    color:#FFFFFF !important;
+    font-family: 'Lobster', cursive !important;
+}

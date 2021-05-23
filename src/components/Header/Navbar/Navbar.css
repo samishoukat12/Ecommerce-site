@@ -1,0 +1,33 @@
+.NavTab{
+    padding: 20px;
+}
+.NVBR{
+    padding: 20px !important;
+}
+
+.NVBR>.Lnk{
+    text-decoration: none !important;
+   padding-top:20px;
+   padding-bottom: 20px;
+   padding-right: 10px;
+   padding-left: 10px;
+    color:black;
+
+}
+.NVBR:hover {
+    background-color: #FFFFFF;
+    padding-left:14px;
+    padding-right: 14px;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    transition: ease;
+}
+.toggle{
+    margin-Left: 20px ;
+    height: 55px ;
+    width: 55px;
+    border-radius:50% !important;
+    background-color:white !important;
+    color: #FFFFFF !important;
+    margin-bottom:10px;
+  }
